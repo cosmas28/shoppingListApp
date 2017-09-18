@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--======== All Stylesheet =========-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- navigation bar start here -->
+	<header>
+		<nav class="navbar navbar-default nav-color">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand" >Shopping recorder</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="sign-up.html">Username</a>
+						</li>
+						<li>
+							<a href="index.html">Log out</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- /navigation -->
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="vertical-menu">
+						<li><a href="#">My profile</a></li>
+						<li><a href="shopping-list-view.html">Shopping list</a></li>
+						<li><a href="create-new-shopping-list.html">Create new shopping list</a></li>
+						<li><a href="add-new-item.html">Add new item</a></li>
+						<li><a href="view-shared-items.html">Shared shopping list</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8 create-form">
+					<h3>Create new shopping list</h3>
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="email">Name</label>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input type="email" class="form-control" placeholder="Shopping list name">
+						</div>
+						<div class="form-group">
+							<label for="email">Amount to spend</label>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input type="number" class="form-control" placeholder="Amount to spend">
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">Create</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

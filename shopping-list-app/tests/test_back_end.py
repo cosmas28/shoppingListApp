@@ -1,20 +1,12 @@
 import unittest
-
-from flask import Flask
-from flask import abort, url_for
-from fask_testing import TestCase
+import os
+from app import create_app
 
 class TestCase(TestCase):
-    def create_app(self):
-
-        # pass in test configurations
-        config_name = 'testing'
-        app = create_app(config_name)
-        app.config.update()
-
-        return app
+    """This class represents the buckist test case"""
 
     def setUp(self):
+        """Define test variables and initialize app. """
         pass
 
     def tearDown(self):
